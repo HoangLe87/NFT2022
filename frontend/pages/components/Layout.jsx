@@ -5,9 +5,9 @@ import Header from "./Header";
 const Layout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
-      <Header></Header>
+      <Header className="z-10"></Header>
       <main className="flex flex-col grow">{children}</main>
-      <Footer />
+      <Footer/>
     </div>
   );
 };

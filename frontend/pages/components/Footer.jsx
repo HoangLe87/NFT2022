@@ -1,5 +1,5 @@
 const Footer = () => {
-  return <>All rights reserved © Crypto Devs</>;
+  return <div className="bg-black text-center">All rights reserved © Crypto Devs</div>;
 };
 
 export default Footer;
